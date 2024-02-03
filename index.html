@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="Index.css">
+
+</head>
+
+<body>
+    <!-- <audio  autoplay type="music/mp3" src="glossy-168156.mp3"></audio> -->
+
+
+
+    <header class="header" >
+        <a href="#" class="port">PortFolio .</a>
+        <nav class="navbar" >
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#project">Projects</a>
+
+            <!-- <a href="#contact" style="--i:4;">Contact</a> -->
+        </nav>
+    </header>
+
+    <section class="home" style="background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);">
+        <div class="home-content" id="home">
+            <h2>Hello, It's </h2>
+            <h1>Abhishek </h1>
+
+            <h2> And I'm <span id="element"> </span></h2>
+
+
+            <p> Attended at Chitkara University. </p>
+
+            <div class="social-media">
+                <a href="#" style="--i:7;" onclick="location.href='https://instagram.com/'"><i
+                        class='bx bxl-instagram bx-tada'></i></a>
+                <a href="#" style="--i:8;" onclick="location.href='https://facebook.com/'"><i
+                        class='bx bxl-facebook bx-tada'></i></a>
+                <a href="#" style="--i:9;" onclick="location.href='https://twitter.com/'"><i
+                        class='bx bxl-twitter bx-tada'></i></a>
+                <a href="#" style="--i:10;" onclick="location.href='https://github.com/'"><i
+                        class='bx bxl-github bx-tada'></i></a>
+
+            </div>
+            <a href="#" class="button" onclick="location.href='https://linkedin.com/'"><i class='bx bxl-gmail bx-spin'></i>Contact .</a>
+            
+        </div>
+        <div class="home-img">
+            <img src="AB.jpg-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <br>
+
+    <section class="secondsection">
+        <div class="leftsection">
+            <img src="ABHI1.jpeg" alt="">
+        </div>
+
+
+        <div id="about" class="rightsection">
+            <!-- <h2 >About Me</h2> -->
+            <div>My name is Abhishek & I'm purshuing B.Tech in Computer Science And Engineering.Currently I'm a 2nd year
+                student & I have worked on some languages.</div>
+        </div>
+
+    </section>
+
+    <br>
+    <section class="thirdsection">
+        <span class="text-gray"> What I have learned so far .</span>
+
+        <h1>My Skills</h1>
+        <div class="box">
+
+            <div id="skill" class="vertical">
+                <img class="image-top"
+                    src="data:image/png;base64,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"
+                    alt="html">
+                <div class="vertical-text">
+                    HTML
+                </div>
+                <div class="vertical-desc">
+                    The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                    displayed in a web browser. It defines the content and structure of web content. It is often
+                    assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+                    JavaScript.
+
+                    
+                </div>
+            </div>
+
+
+            <div class="vertical">
+                <img class="image-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxPW995UB1hSxk2Am-wv47AEjREyWLaeC0A&usqp=CAU"
+                    alt="css">
+                <div class="vertical-text">
+                    CSS
+                </div>
+                <div class="vertical-desc">
+                    Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and
+                    styling of a document written in a markup language such as HTML or XML (including XML dialects SVG,
+                    MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and
+                    JavaScript. </div>
+            </div>
+
+            <div class="vertical">
+                <img class="image-top" src="https://miro.medium.com/v2/resize:fit:596/1*E6XFftZQI4_3VIammdxD-g.jpeg"
+                    alt="c">
+                <div class="vertical-text">
+                    C
+                </div>
+                <div class="vertical-desc">
+                    C is an imperative procedural language, supporting structured programming, lexical variable scope,
+                    and recursion, with a static type system. It was designed to be compiled to provide low-level access
+                    to memory and language constructs that map efficiently to machine instructions, all with minimal
+                    runtime support. Despite its low-level capabilities, the language was designed to encourage
+                    <!-- cross-platform programming. C program written with portability in mind can be compiled for a wide
+                    variety of computer operating systems. -->
+                </div>
+            </div>
+
+            <div class="vertical">
+                <img class="image-top"
+                    src="data:image/png;base64,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"
+                    alt="c++">
+                <div class="vertical-text">
+                    C++
+                </div>
+                <div class="vertical-desc">
+                    C++ was designed with systems programming and embedded, resource-constrained software and large
+                    systems in mind, with performance, efficiency, and flexibility of use as its design highlights. C++
+                    has also been found useful in many other contexts, with key strengths being software infrastructure
+                    <!-- and resource-constrained applications, including desktop applications, video games, servers. (e.g.,
+                    e-commerce, web search, or databases), and performance-critical applications (e.g., telephone
+                    switches or space probes). -->
+                </div>
+            </div>
+
+            <div class="vertical">
+                <img class="image-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLtvMx9JWkBlRDFaCGqOrGnMqUljRNAur7Fi1eJWTMA&s"
+                    alt="dbms">
+                <div class="vertical-text">
+                    DBMS
+                </div>
+                <div class="vertical-desc">
+                    A Database Management System (DBMS) is a software system that is designed to manage and organize
+                    data in a structured manner. It allows users to create, modify, and query a database, as well as
+                    manage the security and access controls for that database.
+                    <!-- DBMS provides an environment to store and retrieve the data in coinvent and efficient manner.A
+                    database is a collection of interrelated data which helps in the efficient retrieval, insertion, and
+                    deletion of data from the database and organizes the data in the form of tables, views, schemas,
+                    reports, etc. -->
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <br>
+    <section class="fourthsection">
+        <span class="text-gray"> More Will Upload Soon...</span>
+
+        <h1>Projects</h1>
+        <div id="project" class="skillcontainer1">
+            <div>
+                <a href="https://github.com/Abhishek1158/SnakeWaterGunGame/tree/main" target="_blank"
+                    class="text-gray">Snake Water Gun Game...<img id="logo"
+                        src="https://ioflood.com/blog/wp-content/uploads/2023/09/Data-visualization-in-Python-charts-graphs-code-flows-and-Python-logo.jpg"
+                        alt="Python Logo">
+                </a>
+
+
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Abhishek's Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact</li>
+
+                </ul>
+            </div>
+
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact</li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-rights">
+            &#169; abhisheksportfolio.com || All Right's Reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Engineering Student','roy', 'Developer'],
+            typeSpeed: 60,
+        });
+    </script>
+   
+
+</body>
+
+</html>
